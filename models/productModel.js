@@ -21,7 +21,7 @@ const productSchema = new mongoose.Schema({
     },
     images:[
         {
-            filename:{
+            image:{
                 type:String,
                 required:true
             }
@@ -35,15 +35,15 @@ const productSchema = new mongoose.Schema({
                 'Electronucs',
                 'Mobile Phones',
                 'Laptops',
-                'Fashion',
+                'Accessories',
                 'Home',
-                'Furniture',
+                'Headphones',
                 'Sports',
-                'Appliances',
-                'Electronics',
-                'Foods',
-                'Watches',
-                'Personal Care'
+                'Books',
+                'Cloth/Shoes',
+                'Beauty/Health',
+                'Outdoor',
+                'Food'
             ],
             method:'please select correct category'
         }
