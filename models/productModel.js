@@ -82,3 +82,7 @@ const productSchema = new mongoose.Schema({
         default:Date.now()
     }
 })
+
+let schema= mongoose.model('Product',productSchema)
+
+module.exports=schema
