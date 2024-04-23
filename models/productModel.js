@@ -7,6 +7,7 @@ const productSchema = new mongoose.Schema({
         trim : true,
         maxLength: [100,'product name cannot exceed 100 charector']
     },
+    
     price:{
         type:Number,
         default: 0.00
